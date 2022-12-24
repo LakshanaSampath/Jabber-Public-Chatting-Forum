@@ -75,9 +75,5 @@ Feedback Contact Form
 ![2contact](https://user-images.githubusercontent.com/81451604/201827660-09460323-7826-4eb7-a4bf-bffa67612d87.jpg)
 
 
-## 🔗 Links
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshmankarthick/)
-
-[![Github](https://img.shields.io/badge/Github-1DA1F2?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/lakshman-karthick/)
 
