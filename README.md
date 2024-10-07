@@ -1,10 +1,13 @@
 
 # JABBER (Public Chatting Forum)
 
-Any user can use their email id to chat and discuss about the current affairs.
-React JS is used for frontend and Firebase is used as Database as well as for Authentication.
 
-## Dependencies:
+Any user can use their email id to chat and discuss about the current affairs.
+React JS is used for frontend and NodeJS and Express along with MongoDB Database is used as Backend. Firebase is used for Google Authentication.
+
+## Frontend:
+
+### Dependencies:
 
  "dependencies": {
 
@@ -18,6 +21,7 @@ React JS is used for frontend and Firebase is used as Database as well as for Au
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "emoji-picker-react": "^3.5.1",
+    "socket.io-client": "^4.7.5"
     "firebase": "^9.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -26,54 +30,121 @@ React JS is used for frontend and Firebase is used as Database as well as for Au
   },
 
   
-## Concepts Used
+### Concepts Used
 
 - React JS (Frontend)
         => React Routers
         => React Hooks
         => Emoji Picker
-- Firebase (Database,Google Authentication,Hosting)
+- Firebase (Google Authentication)
 - Material UI (Icons)
+- Socket.io
 
-## Features
+### Features
 
 - Public Chat Functionality
+- Search Chat Rooms
 - Sending Text Messages
 - Sending Images
 - Sending Emoji Messages
 - Deleting Sent Messages
+- Editing Sent Messages
 - Adding New Chats
+- Editing Chats Info
+- Deleting Chats
 - Feedback Contact Form
 
-## Hosted Project Link
-https://messenger-c4890.web.app/
+### Hosted Project Link
+https://jabber-public-discussion-forum.vercel.app
 
-## Demo
+## Backend:
 
-https://www.kapwing.com/videos/6372f2b0bfdfd30011d528df
+### Dependencies:
+
+"devDependencies": {
+
+    "nodemon": "^2.0.22"
+},
+
+"dependencies": {
+
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0"
+    "socket.io": "^4.7.5"
+}
+
+### Api Endpoints:
+
+#### Chats
+
+    GET /chat
+    POST /chat
+    PUT /chat/:id
+    DELETE /chat/:id
+
+#### Messages
+
+    GET /chat/:id/messages
+    POST /chat/:id/messages
+    PUT /chat/:id/messages/:msgId
+    DELETE /chat/:id/messages/:msgId
+
+
 # Screenshots
 
 Login(Google Authentication):
-![2](https://user-images.githubusercontent.com/81451604/201827131-9d6c15e7-df67-4b1b-bad1-923813b8bf80.jpg)
 
-Home:
-![home](https://user-images.githubusercontent.com/81451604/201827712-12730749-95d2-4908-9ad3-babbb09319fb.jpg)
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/83387d1e-7e42-42f7-a1f2-588d72cd5674">
 
-Add Image:
-![addimage](https://user-images.githubusercontent.com/81451604/201827686-2d3541cb-1481-4a81-807a-4163dd86fa23.jpg)
+#### Home:
 
-Add Emoji:
-![emoji](https://user-images.githubusercontent.com/81451604/201827704-92408dc4-febe-419a-90be-e7b23cb5f09c.jpg)
-
-Delete:
-![delete](https://user-images.githubusercontent.com/81451604/201827700-c580b962-e61f-4388-9dfe-e0a543cc79a7.jpg)
-
-Add New Chat:
-![addchat](https://user-images.githubusercontent.com/81451604/201827674-62a79dfd-bb56-4e76-ac26-6d96223cc40d.jpg)
-
-Feedback Contact Form
-![2contact](https://user-images.githubusercontent.com/81451604/201827660-09460323-7826-4eb7-a4bf-bffa67612d87.jpg)
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/9f59742c-6661-4823-86a6-5db3b79f05e1">
 
 
+#### Chat :
+
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/7570137e-8593-4497-8ac8-a499bca9b864">
 
 
+#### Add Image:
+
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/0de9e318-eba1-47b5-b00e-d6a97c14895b">
+
+
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/232a37de-858f-45d3-bb0f-e2c352fbd4bb">
+
+
+
+#### Add Emoji:
+
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/2ef21c10-5afc-4363-9360-ff3c2bd50672">
+
+
+#### Delete:
+
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/8e4adf8d-b368-4687-bd93-6817de275dc1">
+
+
+#### Edit Message:
+
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/8381f82d-36a2-4814-aef2-8cb9252bd101">
+
+
+#### Add New Chat:
+
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/8370fc15-9ac0-4d61-8d20-0811e56071ed">
+
+
+#### Feedback Contact Form
+
+<img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/00204a0f-61dd-4c36-aa94-78052337591b">
+
+
+
+## 🔗 Links
+
+[![linkedin]
+
+[![Github](https://img.shields.io/badge/Github-1DA1F2?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/lakshman-karthick/)
