@@ -142,9 +142,3 @@ Login(Google Authentication):
 <img width="960" alt="image" src="https://github.com/lakshman-karthick/Jabber-Public-Chatting-Forum-/assets/81451604/00204a0f-61dd-4c36-aa94-78052337591b">
 
 
-
-## 🔗 Links
-
-[![linkedin]
-
-[![Github](https://img.shields.io/badge/Github-1DA1F2?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/lakshman-karthick/)
